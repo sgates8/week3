@@ -1,0 +1,31 @@
+.myDiv {
+    border: 5px outset cyan;
+    background-color:black;
+    text-align: center;
+  }
+
+  h1{
+      color:purple;
+  }
+
+  h1{
+      text-align: center;
+
+  }
+
+  h1{
+      outline: 6px dotted purple;
+      outline-offset: 12px;
+  }
+
+  h2{
+     color: white;
+  }
+
+  p{
+      color: cyan;
+  }
+
+  p{
+      position: absolute;
+  }
