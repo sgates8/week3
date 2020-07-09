@@ -28,6 +28,7 @@ img {
 " height="700"
 }
 
-body {
-    background-color: aqua;
-  }
+@media only screen (max-width: 600px) {
+    .mediaDiv #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 220px;}
+}
