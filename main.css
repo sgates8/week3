@@ -10,7 +10,7 @@
       outline: 6px dotted purple;
       outline-offset: 12px;
   }
-  
+
   h2{
      color: white;
   }
@@ -21,4 +21,13 @@
 
   p{
       position: absolute;
+  }
+
+img {
+    width="550
+" height="700"
+}
+
+body {
+    background-color: aqua;
   }
