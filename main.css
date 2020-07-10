@@ -23,12 +23,23 @@
       position: absolute;
   }
 
-img {
-    width="550
-" height="700"
-}
+.container:hover .image {
+    opacity: 0.3;
+  }
 
-@media only screen (max-width: 600px) {
-    .mediaDiv #leftsidebar {width: 200px; float: left;}
-    #main {margin-left: 220px;}
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+@media only screen and (max-width: 600px) {
+    .mediaDiv {
+        column-count: 2;
+        column-gap: 25px;
+        #leftsidebar {width: 50%vw; float: left; background-color: black ;
+        #main {margin-left: 50%;
+    }
 }
