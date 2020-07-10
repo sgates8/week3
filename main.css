@@ -10,7 +10,7 @@
       outline: 6px dotted purple;
       outline-offset: 12px;
   }
-  
+
   h2{
      color: white;
   }
@@ -22,3 +22,24 @@
   p{
       position: absolute;
   }
+
+.container:hover .image {
+    opacity: 0.3;
+  }
+
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+@media only screen and (max-width: 600px) {
+    .mediaDiv {
+        column-count: 2;
+        column-gap: 25px;
+        #leftsidebar {width: 50%vw; float: left; background-color: black ;
+        #main {margin-left: 50%;
+    }
+}
