@@ -30,16 +30,30 @@
   .image {
     opacity: 1;
     display: block;
-    width: 100%;
+    width: 50%;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
     transition: .5s ease;
     backface-visibility: hidden;
+  }
 
-@media only screen and (max-width: 600px) {
-    .mediaDiv {
+.aside {
+    color: white;
+}
+
+.mediaDiv {
+    #leftsidebar {width: 50%; float: left;}
+    #main {margin-left: 50%;}
+    background-color: black;
+}
+
+@media only screen and (min-width: 481px) {
         column-count: 2;
         column-gap: 25px;
-        #leftsidebar {width: 50%vw; float: left; background-color: black ;
-        #main {margin-left: 50%;
-    }
+}
+
+@media only screen and (max-device-width: 480px) {
+        column-count: 1;
+
 }
