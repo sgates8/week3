@@ -1,5 +1,14 @@
-body {background-color: aquamarine};
+body {background-color: aquamarine;
+     animation-name: colorChange;
+     animation-duration: 30s;
+     animation-iteration-count: infinite;
+}
 
 .button:hover{
-    color: blueviolet;
+     color: blueviolet;
 }
+
+@keyframes colorChange {
+     from {background-color: aquamarine;}
+     to {background-color: yellow;}
+  }
