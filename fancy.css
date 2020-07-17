@@ -1,7 +1,6 @@
 body {background-color: aquamarine;
      animation-name: colorChange;
      animation-duration: 30s;
-     animation-iteration-count: infinite;
 }
 
 .button:hover{
